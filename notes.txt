@@ -1,0 +1,8 @@
+Git will not use local uname over https. Must use ssh address for remote (i.e: git@github.com:davidayodele/react_prac.git)
+New ssh keys may be needed
+    - ssh-keygen -t rsa -b 4096    (generates 4096 bit RSA key pair)
+    - choose <key name>
+    - ssh-add ~/.ssh/<key name>    (adds key to local repo)
+    - cat /home/<home dir>/.ssh/<key name>.pub     (displays public key)
+    - copy pub key and paste into github (profile logo/settings/SSH Keys..)          (adds key to remote repo)
+    - echo "<key name>*" >> .gitignore    (adds keys to gitignore, just in case)  

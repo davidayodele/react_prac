@@ -5,4 +5,4 @@ New ssh keys may be needed
     - ssh-add ~/.ssh/<key name>    (adds key to local repo)
     - cat /home/<home dir>/.ssh/<key name>.pub     (displays public key)
     - copy pub key and paste into github (profile logo/settings/SSH Keys..)          (adds key to remote repo)
-    - echo "<key name>*" >> .gitignore    (adds keys to gitignore, just in case)  
+    - echo "<key name>*" >> .gitignore  OR   git rm <key name>*             (removes keys from git, just in case)  

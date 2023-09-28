@@ -1,3 +1,25 @@
 .nav-items {
     list-style: none;
 }
+
+.nav-items li {
+    display: inline-flex;
+    padding: 10px;
+}
+
+.nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid #dadada 0.5px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    border-top: solid #dadada 0.5px;
+    width: 100%;
+    left: 0px;
+    text-indent: 10px;
+    padding-top: 10px;
+}

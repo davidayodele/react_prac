@@ -1,21 +1,18 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ReactDOM from 'react-dom';
+import Main from "./components/Main";
+import Navbar from "./components/Navbar";
 
-class App extends Component {  // child class of component
-  render() {
+function App() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+        <div className="container">
+            <Navbar />
+            <Main />
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+    )
 }
 
-export default App;
+export default App
+  
+  
+

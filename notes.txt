@@ -1,3 +1,10 @@
+
+To make a new react proj:
+npx create-react-app my-app
+cd my-app
+npm start
+
+
 Git will not use local uname over https. Must use ssh address for remote (i.e: git@github.com:davidayodele/react_prac.git)
 New ssh keys may be needed
     - ssh-keygen -t rsa -b 4096    (generates 4096 bit RSA key pair)
